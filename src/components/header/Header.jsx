@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useRef} from "react";
 import "./header.css";
 import { Container } from "reactstrap";
 
@@ -26,6 +26,9 @@ const navLinks = [
 ];
 
 const Header = () => {
+
+    const menuRef=useRef()
+    const menuToggle =()=> menuRef.current.classList.toggle('active_menu')
   return (
     <header className="header">
       <Container>
@@ -38,26 +41,28 @@ const Header = () => {
               BalanaAfghan
             </h2>
           </div>
-          <div className="nav_manu">
-            <ul className="nav_list">
-              {navLinks.map((item, index) => (
-                <li className="nav_item" key={index}>
-                  <a href={item.url}>{item.display}</a>
-                </li>
-              ))}
-            </ul>
-          </div>
-          <div className="menu_right">
-            <div className="custome_search">
-              <input type="text" placeholder="search item...." />
-              <span>
-                <i class="ri-search-line"></i>
-              </span>
+          <div className="nav_menu " ref={menuRef}>
+            <div className="nav_list_wrapper d-flex align-items-center gap-5">
+              <ul className="nav_list">
+                {navLinks.map((item, index) => (
+                  <li className="nav_item" key={index}>
+                    <a href={item.url} onClick={menuToggle}>{item.display}</a>
+                  </li>
+                ))}
+              </ul>
+              <div className="menu_right">
+                <div className="custome_search">
+                  
+                <button>Reserve Table</button>
+                </div>
+              </div>
             </div>
           </div>
+
+          
           <div className="mobile_menu">
             <span>
-              <i class="ri-menu-line"></i>
+              <i class="ri-menu-line" onClick={menuToggle}></i>
             </span>
           </div>
         </div>
