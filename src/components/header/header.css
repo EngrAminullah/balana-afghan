@@ -5,6 +5,7 @@
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 9;
 }
 
 .navigation {
@@ -12,13 +13,16 @@
     align-items: center;
     justify-content: space-between;
 }
+.logo{
+    margin-bottom: 0;
+}
 
 .nav_list {
     display: flex;
     align-items: center;
     margin-bottom: 0;
     list-style: none;
-    column-gap: 2rem;
+    column-gap: 2.7rem;
 }
 
 .nav_item a {
@@ -30,4 +34,32 @@
 
 .nav_item a:hover {
     color: #F5B70A;
+}
+
+.custome_search {
+    display: flex;
+    align-items: center;
+    padding: 10px 25px;
+    height: 35px;
+    border-radius: 50px;
+    background: #f6e3af;
+}
+
+.custome_search input {
+    border: none;
+    outline: none;
+    background: transparent;
+    color: black;
+}
+
+.custome_search span {
+    cursor: pointer;
+}
+
+.mobile_menu span i {
+    font-size: 1.5rem;
+}
+
+.mobile_menu {
+    display: none;
 }
