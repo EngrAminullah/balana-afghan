@@ -5,11 +5,18 @@ import { sliderData } from "../../assets/fake-data/slider";
 import "./slider.css";
 
 const HeroSlider = () => {
-  
+  const settings={
+    infinite:true,
+    speed:500,
+    slidesToShow:1,
+    slidesToScroll:1,
+    autoplay:true,
+    autoplaySpeed:3000
+  }
   return (
     <section>
       <Container>
-        <Slider>
+        <Slider {...settings}>
           {sliderData.map((item) => (
             <div>
               <div
