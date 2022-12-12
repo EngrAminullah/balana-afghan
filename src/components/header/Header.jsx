@@ -58,7 +58,10 @@ const Header = () => {
               </div>
             </div>
           </div>
-
+          <div className="cart_icon">
+          <i class="ri-shipping-basket-line"></i>
+          <span className="badge">2</span>
+          </div>
           
           <div className="mobile_menu">
             <span>
