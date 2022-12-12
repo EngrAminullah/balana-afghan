@@ -59,8 +59,8 @@ const Header = () => {
             </div>
           </div>
           <div className="cart_icon">
-          <i class="ri-shopping-basket-line"></i>
-          <span className="badge">2</span>
+          <i class="ri-whatsapp-line"></i>
+          
           </div>
           
           <div className="mobile_menu">

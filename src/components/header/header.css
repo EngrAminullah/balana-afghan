@@ -84,15 +84,7 @@
     align-items: center;
     justify-content: center;
 }
-.badge{
-    position: absolute;
-    top: -2px;
-    right: -3px;
-    z-index: 1000;
-    color: #141124;
-    font-size: .8rem;
-    font-weight: 700;
-}
+
 
 @media only screen and (max-width:992px) {
 
