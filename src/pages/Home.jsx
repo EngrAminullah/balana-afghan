@@ -12,6 +12,7 @@ const Home = () => {
       <PopularMenu />
       <ChooseUs/>
     </Fragment>
+    
   );
 };
 
