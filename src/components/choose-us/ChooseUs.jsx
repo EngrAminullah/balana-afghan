@@ -21,12 +21,44 @@ const ChooseUs = () => {
                 and scrambled it to make a type specimen book.{" "}
               </p>
             </div>
-            <div className="features">
-              <div className="feature1">
-                <div className="single_feature"><span><i class="ri-truck-line"></i></span>
-                <h6>Free Home Delivery</h6>
-                <p>Lorem ipsum dolor isir amet.</p>
+            <div className="features mt-4">
+              <div className="feature1 d-flex align-items-center
+              gap-5
+              ">
+                <div className="single_feature">
+                  <span>
+                    <i class="ri-whatsapp-line"></i>
+                  </span>
+                  <h6>Free Home Delivery</h6>
+                  <p>Lorem ipsum dolor isir amet.</p>
                 </div>
+                <div className="single_feature">
+                  <span className="feature_icon_two">
+                    <i class="ri-money-dollar-circle-line"></i>
+                  </span>
+                  <h6>Return & Refund</h6>
+                  <p>Lorem ipsum dolor isir amet.</p>
+                </div>
+                
+              </div>
+              <div className="feature1 d-flex align-items-center
+              gap-5
+              ">
+                <div className="single_feature">
+                  <span>
+                    <i class="ri-whatsapp-line"></i>
+                  </span>
+                  <h6>Free Home Delivery</h6>
+                  <p>Lorem ipsum dolor isir amet.</p>
+                </div>
+                <div className="single_feature">
+                  <span className="feature_icon_two">
+                    <i class="ri-money-dollar-circle-line"></i>
+                  </span>
+                  <h6>Return & Refund</h6>
+                  <p>Lorem ipsum dolor isir amet.</p>
+                </div>
+                
               </div>
             </div>
           </Col>
