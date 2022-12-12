@@ -8,3 +8,7 @@
     font-size: 0.9rem;
     margin-top: 30px;
 }
+.btn:hover{
+    background-color: #f2a069;
+    color: #fff;
+}
