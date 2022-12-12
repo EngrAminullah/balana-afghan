@@ -5,11 +5,11 @@ import { sliderData } from "../../assets/fake-data/slider";
 import "./slider.css";
 
 const HeroSlider = () => {
-    
+  
   return (
     <section>
       <Container>
-        <Slider >
+        <Slider>
           {sliderData.map((item) => (
             <div>
               <div
