@@ -59,7 +59,7 @@ const Header = () => {
             </div>
           </div>
           <div className="cart_icon">
-          <i class="ri-shipping-basket-line"></i>
+          <i class="ri-shopping-basket-line"></i>
           <span className="badge">2</span>
           </div>
           
