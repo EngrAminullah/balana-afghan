@@ -18,7 +18,7 @@ const HeroSlider = () => {
       <Container>
         <Slider {...settings}>
           {sliderData.map((item) => (
-            <div>
+            <div key={item.id}>
               <div
                 className="slider_wrapper d-flex align-items-center 
               justify-content-between pt-5"

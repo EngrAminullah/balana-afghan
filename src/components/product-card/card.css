@@ -2,7 +2,7 @@
     background: #ffffff;
     border-radius: 10px;
     cursor: pointer;
-    box-shadow: 1px 1px 1px 1px #f5b70a;
+    box-shadow: 1px 1px 1px 1px #f5b70a;box-sizing: border-box;
 }
 
 .single_product:hover {
