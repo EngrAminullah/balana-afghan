@@ -10,10 +10,10 @@ const PopularMenu = () => {
       <Container>
         <Row>
           <Col lg="12" className="mb-5">
-            <h2> Balana Afghan Menu</h2>
+            <h2> Balana Popular Menu</h2>
           </Col>
           {popularMenuFood.map((item) => (
-            <Col lg="3" key={item.id}>
+            <Col lg="3" md='4' sm='6' xs='6' className="mb-4" key={item.id}>
               <ProductCard item={item}/>
             </Col>
           ))}
