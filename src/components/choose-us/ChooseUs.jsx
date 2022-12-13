@@ -45,17 +45,17 @@ const ChooseUs = () => {
               gap-5
               ">
                 <div className="single_feature">
-                  <span>
-                    <i class="ri-whatsapp-line"></i>
+                  <span className="feature_icon-3">
+                    <i class="ri-secure-payment-line"></i>
                   </span>
-                  <h6>Free Home Delivery</h6>
+                  <h6>Secure Payment</h6>
                   <p>Lorem ipsum dolor isir amet.</p>
                 </div>
                 <div className="single_feature">
-                  <span className="feature_icon_two">
-                    <i class="ri-money-dollar-circle-line"></i>
+                  <span className="feature_icon-4">
+                    <i class="ri-24-hours-line"></i>
                   </span>
-                  <h6>Return & Refund</h6>
+                  <h6>24/7 Hours Support</h6>
                   <p>Lorem ipsum dolor isir amet.</p>
                 </div>
                 
