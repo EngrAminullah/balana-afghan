@@ -1,11 +1,5 @@
 import React from "react";
-import {
-  Col,
-  Container,
-  Row,
-  ListGroup,
-  ListGroupItem
-} from "reactstrap";
+import { Col, Container, Row, ListGroup, ListGroupItem } from "reactstrap";
 import "./footer.css";
 
 const footerQuickLinks = [
@@ -49,7 +43,7 @@ const Footer = () => {
     <footer className="footer">
       <Container>
         <Row>
-          <Col lg="4" md="4" sm="6">
+          <Col lg="3" md="4" sm="6">
             <div className="logo">
               <h2 className="d-flex align-items-center gap-1 mb-4">
                 <span>
@@ -63,7 +57,7 @@ const Footer = () => {
               </p>
             </div>
           </Col>
-          <Col lg="2" md="4" sm="6">
+          <Col lg="3" md="4" sm="6">
             <h5 className="footer_link-title">Info Links</h5>
             <ListGroup>
               {footerQuickLinks.map((item, index) => (
@@ -105,6 +99,18 @@ const Footer = () => {
           </Col>
         </Row>
       </Container>
+      <div className="footer_bottom">
+        <Container>
+          <Row>
+            <Col lg="12">
+              <p>
+                © copyright 2022, developed by Engr Aminullah (Atari Tech). All
+                rights reserved.
+              </p>
+            </Col>
+          </Row>
+        </Container>
+      </div>
     </footer>
   );
 };
