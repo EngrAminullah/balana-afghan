@@ -41,13 +41,16 @@
     background: #7865ff !important;
 }
 
-@media only screen and(max-width:992px) {
+@media only screen and (max-width:992px) {
     .choose_content h2 {
         font-size: 1.5rem;
     }
 
     .choose_content h4 {
         font-size: 1rem;
+    }
+    .choose_content p {
+        font-size: 0.8rem;
     }
 
     .single_feature h6 {
