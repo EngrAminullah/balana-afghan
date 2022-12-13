@@ -1,0 +1,19 @@
+
+.footer{
+    padding-bottom: 0;
+    border-top: 1px solid black;
+}
+.footer_link-title{
+
+    color: black;
+
+}
+.link_item{
+    padding-left: 0;
+    background: transparent;
+    border: none;
+}
+.link_item a{
+    color: #0f2338;
+    font-weight: 600;
+}
