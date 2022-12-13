@@ -41,7 +41,7 @@ const ChooseUs = () => {
                 </div>
                 
               </div>
-              <div className="feature1 d-flex align-items-center
+              <div className="feature1 mt-3 d-flex align-items-center
               gap-5
               ">
                 <div className="single_feature">
