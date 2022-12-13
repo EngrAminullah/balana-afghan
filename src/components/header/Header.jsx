@@ -1,4 +1,4 @@
-import React,{useRef} from "react";
+import React, { useRef } from "react";
 import "./header.css";
 import { Container } from "reactstrap";
 
@@ -26,9 +26,8 @@ const navLinks = [
 ];
 
 const Header = () => {
-
-    const menuRef=useRef()
-    const menuToggle =()=> menuRef.current.classList.toggle('active_menu')
+  const menuRef = useRef();
+  const menuToggle = () => menuRef.current.classList.toggle("active_menu");
   return (
     <header className="header">
       <Container>
@@ -46,23 +45,25 @@ const Header = () => {
               <ul className="nav_list">
                 {navLinks.map((item, index) => (
                   <li className="nav_item" key={index}>
-                    <a href={item.url} onClick={menuToggle}>{item.display}</a>
+                    <a href={item.url} onClick={menuToggle}>
+                      {item.display}
+                    </a>
                   </li>
                 ))}
               </ul>
               <div className="menu_right">
                 <div className="custome_search">
-                  
-                <button>Reserve Table</button>
+                  <button>Reserve Table</button>
                 </div>
               </div>
             </div>
           </div>
           <div className="cart_icon">
-          <i class="ri-whatsapp-line"></i>
-          
+            <span>
+              <i class="ri-whatsapp-line"></i>
+            </span>
           </div>
-          
+
           <div className="mobile_menu">
             <span>
               <i class="ri-menu-line" onClick={menuToggle}></i>
