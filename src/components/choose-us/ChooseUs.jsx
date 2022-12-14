@@ -8,23 +8,28 @@ const ChooseUs = () => {
     <section>
       <Container>
         <Row>
-          <Col lg="6" md='6'>
+          <Col lg="6" md="6">
             <img src={pastaImg} alt="" className="w-100" />
           </Col>
-          <Col lg="6" md='6'>
+          <Col lg="6" md="6">
             <div className="choose_content">
               <h4>Who we are?</h4>
               <h2>Take a look at the benefits we offer you</h2>
               <p>
-                Lorem Ipsum has been the industry's standard dummy text ever
-                since the 1500s, when an unknown printer took a galley of type
-                and scrambled it to make a type specimen book.{" "}
+                A restaurant is not just a place but true combination of taste,
+                environment and Class. Located in the center of the Capital,
+                Balana restaurant is a fine dining restaurant with a comfortable
+                atmosphere and high quality delicious food. We are proud
+                providers of a variety of appetizers, delicious Afghan cuisine
+                and unique presentation style service.
               </p>
             </div>
             <div className="features mt-4">
-              <div className="feature1 d-flex align-items-center
+              <div
+                className="feature1 d-flex align-items-center
               gap-5
-              ">
+              "
+              >
                 <div className="single_feature">
                   <span>
                     <i class="ri-whatsapp-line"></i>
@@ -39,11 +44,12 @@ const ChooseUs = () => {
                   <h6>Return & Refund</h6>
                   <p>Lorem ipsum dolor isir amet.</p>
                 </div>
-                
               </div>
-              <div className="feature1 mt-3 d-flex align-items-center
+              <div
+                className="feature1 mt-3 d-flex align-items-center
               gap-5
-              ">
+              "
+              >
                 <div className="single_feature">
                   <span className="feature_icon-3">
                     <i class="ri-secure-payment-line"></i>
@@ -58,7 +64,6 @@ const ChooseUs = () => {
                   <h6>24/7 Hours Support</h6>
                   <p>Lorem ipsum dolor isir amet.</p>
                 </div>
-                
               </div>
             </div>
           </Col>

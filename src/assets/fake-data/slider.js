@@ -6,19 +6,19 @@ export const sliderData = [
   {
     id: "01",
     title: "We have simple and delicious food for you 😍",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi animi, itaque ipsum magnam quae alias omnis veniam dolor fugiat similique voluptas consectetur corrupti odit quisquam incidunt quia architecto voluptate molestiae?",
+    desc: "In addition to the quality and delicious food, you will love the pleasant surroundings of our restaurant, the perfect destination.",
     imgUrl: sliderImg01,
   },
   {
     id: "02",
-    title: "We believe good food over great smile",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi animi, itaque ipsum magnam quae alias omnis veniam dolor fugiat similique voluptas consectetur corrupti odit quisquam incidunt quia architecto voluptate molestiae?",
+    title: "We believe good food over great smile 😊",
+    desc: "The restaurant offers a variety of interesting, cultural and colorful dishes served in a very short time. Customers are the source of our success, so we are always interested in serving them.",
     imgUrl: sliderImg02,
   },
   {
     id: "03",
-    title: "Meet, Eat and Enjoy the true test",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi animi, itaque ipsum magnam quae alias omnis veniam dolor fugiat similique voluptas consectetur corrupti odit quisquam incidunt quia architecto voluptate molestiae?",
+    title: "Meet, Eat and Enjoy the true test 🤩",
+    desc: " We have updated our services with new products, highly qualified staff and smart managers. Balana Restaurant is your perfect choice for your family and friends.",
     imgUrl: sliderImg03,
   },
 ];

@@ -1,42 +1,38 @@
 // ======= imported  all products images from images folder ========
 import pizzaImg01 from "../images/pizza1.png";
-
 import fastFood03 from "../images/chicken3.png";
 import fastFood04 from "../images/chicken4.png";
-
 import dessert02 from "../images/dessert02.png";
 import dessert03 from "../images/dessert2.png";
 import dessert04 from "../images/dessert3.png";
-
 import coffeeImg02 from "../images/coffe2.png";
-
 import salad from "../images/slider2.png";
 
 export const popularMenuFood = [
   {
     id: "01",
-    title: "Vegetable Salad",
-    price: 25,
+    title: "Turkmen Pulao",
+    price: 599,
     imgUrl: fastFood03,
   },
   {
     id: "02",
-    title: "Chicken",
-    price: 250,
+    title: "Dumbah Namkeen Rosh",
+    price: 699,
     imgUrl: fastFood04,
   },
 
   {
     id: "03",
-    title: "Whipped Cream",
-    price: 45,
+    title: "Mutton Tikka",
+    price: 1399,
     imgUrl: dessert02,
   },
 
   {
     id: "04",
-    title: "Pizza",
-    price: 75,
+    title: "Beef Kabab Karhahi",
+    price: 1399,
     imgUrl: pizzaImg01,
   },
 ];
