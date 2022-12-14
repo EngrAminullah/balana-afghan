@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Container, Row, ListGroup, ListGroupItem } from "reactstrap";
 import "./footer.css";
+import logo from '../../assets/images/logo.png'
 
 const footerQuickLinks = [
   {
@@ -69,12 +70,7 @@ const Footer = () => {
         <Row>
           <Col lg="3" md="4" sm="6">
             <div className="logo">
-              <h2 className="d-flex align-items-center gap-1 mb-4">
-                <span>
-                  <i class="ri-restaurant-2-line"></i>
-                </span>
-                BalanaAfghan
-              </h2>
+              <img src={logo} alt=''/>
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry.

@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import "./header.css";
 import { Container } from "reactstrap";
-
+import logo from "../../assets/images/logo.png";
 
 const navLinks = [
   {
@@ -34,7 +34,7 @@ const Header = () => {
       <Container>
         <div className="navigation">
           <div className="logo">
-      
+            <img src={logo} alt="" />
           </div>
           <div className="nav_menu " ref={menuRef}>
             <div className="nav_list_wrapper d-flex align-items-center gap-5">
