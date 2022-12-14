@@ -46,7 +46,7 @@ const MenuPack = () => {
               }`}
               onClick={() => setFilter("FAST-FOOD")}
             >
-              Fast Food
+              BBQ
             </button>
             <button
               className={`filter-btn ${
@@ -54,7 +54,7 @@ const MenuPack = () => {
               }`}
               onClick={() => setFilter("RICE-MENU")}
             >
-              Pulao Menu
+              Rosh
             </button>
             <button
               className={`filter-btn ${
@@ -62,7 +62,39 @@ const MenuPack = () => {
               }`}
               onClick={() => setFilter("PIZZA")}
             >
-              Pizza
+              Pulao
+            </button>
+            <button
+              className={`filter-btn ${
+                filter === "DESSERT" ? "active__btn" : ""
+              }`}
+              onClick={() => setFilter("DESSERT")}
+            >
+              Balana Karhahi
+            </button>
+            <button
+              className={`filter-btn ${
+                filter === "COFFEE" ? "active__btn" : ""
+              }`}
+              onClick={() => setFilter("COFFEE")}
+            >
+              Platters
+            </button>
+            <button
+              className={`filter-btn ${
+                filter === "COFFEE" ? "active__btn" : ""
+              }`}
+              onClick={() => setFilter("COFFEE")}
+            >
+              Cold Drinks
+            </button>
+            <button
+              className={`filter-btn ${
+                filter === "COFFEE" ? "active__btn" : ""
+              }`}
+              onClick={() => setFilter("COFFEE")}
+            >
+              Hot Drinks
             </button>
             <button
               className={`filter-btn ${
@@ -71,14 +103,6 @@ const MenuPack = () => {
               onClick={() => setFilter("DESSERT")}
             >
               Desserts
-            </button>
-            <button
-              className={`filter-btn ${
-                filter === "COFFEE" ? "active__btn" : ""
-              }`}
-              onClick={() => setFilter("COFFEE")}
-            >
-              Coffee
             </button>
           </Col>
           {product.map((item) => (

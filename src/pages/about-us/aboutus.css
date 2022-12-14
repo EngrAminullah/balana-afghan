@@ -1,0 +1,102 @@
+.about__us {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: "nando";
+  }
+  
+  .main__au {
+    background-image: url("../../assets/images/rice02.png");
+    object-fit: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: transparent;
+    text-align: center;
+    display: flex;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .main__au > h1 {
+    display: flex;
+    align-self: center;
+    font-size: 70px;
+    text-align: center;
+    margin: 0% auto;
+    color: rgb(237, 229, 229);
+  }
+  
+  .text__au {
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: rgb(7, 1, 1);
+    justify-content: center;
+    text-align: center;
+    margin: 0% auto;
+    width: 100%;
+  }
+  
+  .text__au p {
+    font-size: 20px;
+    margin: 0% auto;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .text__au h3 {
+    font-size: 40px;
+  }
+  
+  @media (max-width: 768px) {
+    .about__us {
+      width: auto;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+      background-color: white;
+    }
+  
+    .main__au {
+      width: 100%;
+      color: white;
+      height: 400px;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  
+    .main__au > h1 {
+      font-size: 20px;
+    }
+  
+    .text__au {
+      height: fit-content;
+      text-align: center;
+      width: 100%;
+    }
+  
+    .text__au h3 {
+      font-size: 20px;
+    }
+  
+    .text__au p {
+      justify-content: left;
+      text-align: center;
+      width: 90%;
+      line-height: normal;
+      align-items: center;
+      font-size: 15px;
+    }
+  }
+  

@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import "./header.css";
 import { Container } from "reactstrap";
 
+
 const navLinks = [
   {
     display: "Home",
@@ -33,12 +34,7 @@ const Header = () => {
       <Container>
         <div className="navigation">
           <div className="logo">
-            <h2 className="d-flex align-items-center gap-1">
-              <span>
-                <i class="ri-restaurant-2-line"></i>
-              </span>
-              BalanaAfghan
-            </h2>
+      
           </div>
           <div className="nav_menu " ref={menuRef}>
             <div className="nav_list_wrapper d-flex align-items-center gap-5">
