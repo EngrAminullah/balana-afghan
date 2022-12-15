@@ -2,11 +2,11 @@
     align-items: center;
     text-align: center;
     justify-content: center;
-    font-family: "nando";
+    
   }
   
   .main__au {
-    background-image: url("../../assets/images/rice02.png");
+    
     object-fit: cover;
     background-repeat: no-repeat;
     text-align: center;
@@ -14,7 +14,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: black;
     background-color: transparent;
     text-align: center;
     display: flex;
@@ -29,7 +29,6 @@
     font-size: 70px;
     text-align: center;
     margin: 0% auto;
-    color: rgb(237, 229, 229);
   }
   
   .text__au {

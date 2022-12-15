@@ -1,7 +1,8 @@
 import React from "react";
 import { Col, Container, Row, ListGroup, ListGroupItem } from "reactstrap";
 import "./footer.css";
-import logo from '../../assets/images/logo.png'
+import logo from "../../assets/images/logo.png";
+import ReactWhatsapp from "react-whatsapp";
 
 const footerQuickLinks = [
   {
@@ -70,7 +71,7 @@ const Footer = () => {
         <Row>
           <Col lg="3" md="4" sm="6">
             <div className="logo">
-              <img src={logo} alt=''/>
+              <img src={logo} alt="" />
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry.
@@ -135,7 +136,15 @@ const Footer = () => {
                 @balanaafghan
               </ListGroupItem>
               <ListGroupItem className="link_item d-flex align-items-center gap-3">
-                <i class="ri-whatsapp-line"></i>+92312-9165664
+                <i class="ri-whatsapp-line"></i>
+                <ReactWhatsapp
+                  number="+923129165664"
+                  message="How can Balana Afghan Serve You"
+                  class="btn"
+                  className="whatsapp"
+                >
+                  +92312-9165664
+                </ReactWhatsapp>
               </ListGroupItem>
             </ListGroup>
           </Col>

@@ -5,9 +5,9 @@ import ProductCard from "../product-card/ProductCard";
 import {
   fastFoodProducts,
   riceMenuProducts,
-  pizzaProducts,
   dessertProducts,
   coffeeProducts,
+  Pulao,
 } from "../../assets/fake-data/products";
 
 const MenuPack = () => {
@@ -21,8 +21,8 @@ const MenuPack = () => {
     if (filter === "FAST_FOOD") {
       setProduct(fastFoodProducts);
     }
-    if (filter === "PIZZA") {
-      setProduct(pizzaProducts);
+    if (filter === "Pulao") {
+      setProduct(Pulao);
     }
     if (filter === "DESSERT") {
       setProduct(dessertProducts);
@@ -58,9 +58,9 @@ const MenuPack = () => {
             </button>
             <button
               className={`filter-btn ${
-                filter === "PIZZA" ? "active__btn" : ""
+                filter === "Pulao" ? "active__btn" : ""
               }`}
-              onClick={() => setFilter("PIZZA")}
+              onClick={() => setFilter("Pulao")}
             >
               Pulao
             </button>
@@ -106,7 +106,7 @@ const MenuPack = () => {
             </button>
           </Col>
           {product.map((item) => (
-            <Col lg="3" md='4' sm='6' xs='6' key={item.id} className="mb-4">
+            <Col lg="3" md="4" sm="6" xs="6" key={item.id} className="mb-4">
               <ProductCard item={item} />
             </Col>
           ))}

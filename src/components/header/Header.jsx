@@ -7,23 +7,20 @@ import ReactWhatsapp from "react-whatsapp";
 const navLinks = [
   {
     display: "Home",
-    url: "#",
+    url: "/",
   },
   {
     display: "Menu",
-    url: "#",
+    url: "/menu",
   },
-  {
-    display: "Deals",
-    url: "#",
-  },
+
   {
     display: "About Us",
-    url: "/about-us",
+    url: "/aboutus",
   },
   {
     display: "Contact Us",
-    url: "#",
+    url: "/contact",
   },
 ];
 
@@ -65,6 +62,7 @@ const Header = () => {
               number="+923129165664"
               message="How can Balana Afghan Serve You"
               class="btn"
+              className="whatsapp"
             >
               <span>
                 <i class="ri-whatsapp-line"></i>
