@@ -152,8 +152,8 @@
         color: black;
     }
 
-    .logo h2 {
-        font-size: 1.5rem;
+    .logo img{
+        height: 60px;
     }
 
     .active_menu {

@@ -18,7 +18,7 @@ const navLinks = [
   },
   {
     display: "About Us",
-    url: "/src//about-us",
+    url: "/about-us",
   },
   {
     display: "Contact Us",
