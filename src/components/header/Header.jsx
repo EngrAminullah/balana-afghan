@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import "./header.css";
 import { Container } from "reactstrap";
 import logo from "../../assets/images/logo.png";
+import ReactWhatsapp from "react-whatsapp";
 
 const navLinks = [
   {
@@ -34,7 +35,12 @@ const Header = () => {
       <Container>
         <div className="navigation">
           <div className="logo">
-            <img src={logo} alt="" />
+            <img
+              src={logo}
+              alt=""
+              href="http://wa.me/+923420950576"
+              target="blanket"
+            />
           </div>
           <div className="nav_menu " ref={menuRef}>
             <div className="nav_list_wrapper d-flex align-items-center gap-5">
@@ -55,9 +61,15 @@ const Header = () => {
             </div>
           </div>
           <div className="cart_icon">
-            <span>
-              <i class="ri-whatsapp-line"></i>
-            </span>
+            <ReactWhatsapp
+              number="+923129165664"
+              message="How can Balana Afghan Serve You"
+              class="btn"
+            >
+              <span>
+                <i class="ri-whatsapp-line"></i>
+              </span>
+            </ReactWhatsapp>
           </div>
 
           <div className="mobile_menu">
