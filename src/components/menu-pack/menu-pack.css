@@ -7,6 +7,7 @@
     border-radius: 5px;
     cursor: pointer;
     font-weight: bold;
+    border-radius: 20px;
 }
 
 .menu_title {
@@ -14,7 +15,8 @@
 }
 
 .active__btn {
-    background: #f76e11;
+    background: #e8bf51;
+    /* background: #dca306; */
 }
 
 @media only screen and (max-width:992px) {

@@ -4,19 +4,24 @@ import { Container, Row, Col } from "reactstrap";
 import ProductCard from "../product-card/ProductCard";
 import {
   fastFoodProducts,
-  riceMenuProducts,
+  BBQProducts,
+  RoshMenuProducts,
   dessertProducts,
   coffeeProducts,
   Pulao,
+  KaraiProducts
 } from "../../assets/fake-data/products";
 
 const MenuPack = () => {
   const [filter, setFilter] = useState("RICE-MENU");
-  const [product, setProduct] = useState(riceMenuProducts);
+  const [product, setProduct] = useState(RoshMenuProducts);
 
   useEffect(() => {
+    if(filter==="BBQProducts"){
+      setProduct(BBQProducts);
+    }
     if (filter === "RICE-MENU") {
-      setProduct(riceMenuProducts);
+      setProduct(RoshMenuProducts);
     }
     if (filter === "FAST_FOOD") {
       setProduct(fastFoodProducts);
@@ -26,6 +31,9 @@ const MenuPack = () => {
     }
     if (filter === "DESSERT") {
       setProduct(dessertProducts);
+    }
+    if (filter === "KaraiProducts") {
+      setProduct(KaraiProducts);
     }
     if (filter === "COFFEE") {
       setProduct(coffeeProducts);
@@ -42,9 +50,9 @@ const MenuPack = () => {
           <Col lg="12" className="text-center mb-5">
             <button
               className={`filter-btn ${
-                filter === "FAST-FOOD" ? "active__btn" : ""
+                filter === "BBQProducts" ? "active__btn" : ""
               }`}
-              onClick={() => setFilter("FAST-FOOD")}
+              onClick={() => setFilter("BBQProducts")}
             >
               BBQ
             </button>
@@ -66,9 +74,9 @@ const MenuPack = () => {
             </button>
             <button
               className={`filter-btn ${
-                filter === "DESSERT" ? "active__btn" : ""
+                filter === "KaraiProducts" ? "active__btn" : ""
               }`}
-              onClick={() => setFilter("DESSERT")}
+              onClick={() => setFilter("KaraiProducts")}
             >
               Balana Karhahi
             </button>
