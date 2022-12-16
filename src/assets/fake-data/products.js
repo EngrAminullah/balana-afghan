@@ -12,6 +12,10 @@ import chicken from "../images/menus-images/chicken.png";
 import qahwa from "../images/menus-images/qahwa.png";
 import roosh from "../images/menus-images/items/roosh.png";
 import yakhni from "../images/menus-images/yakhni.png";
+import kabab from "../images/menus-images/items/kabab.png";
+import tea from "../images/menus-images/items/tea.png"
+import blackCoffee from '../images/menus-images/items/blackCoffee.png'
+import seekhtikka from '../images/menus-images/items/seekh-tikka.jpg'
 
 
 
@@ -88,14 +92,14 @@ export const BBQProducts = [
     id: "06",
     title: "Afghani Seekh Kabab",
     price: 250,
-    imgUrl: fastFood04,
-    description:"Ingredients for Afghani Kebab - SK Khazana Recipe · Mutton mince (keema) 300 grams"
+    imgUrl: kabab,
+    description:"Ingredients for Afghani Kebab"
   },
   {
     id: "07",
     title: "Afghani Seekh Tikka",
     price: 195,
-    imgUrl: fastFood04,
+    imgUrl: seekhtikka,
     description:"Afghani Food at Al Asif Square Karachi Afghani Boti Street Food Balochi Tikka ❤️ Karachi Food"
   },
   {
@@ -220,14 +224,14 @@ export const coffeeProducts = [
   },
   {
     id: "38",
-    title: "Cold Coffee",
+    title: "Tea",
     price: 20,
-    imgUrl: qahwa,
+    imgUrl: tea,
   },
   {
     id: "39",
     title: "Black Coffee",
     price: 20,
-    imgUrl: qahwa,
+    imgUrl: blackCoffee,
   },
 ];

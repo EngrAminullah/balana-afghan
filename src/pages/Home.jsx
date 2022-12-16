@@ -7,24 +7,29 @@ import HeroSlider from "../components/hero-slider/HeroSlider";
 import MenuPack from "../components/menu-pack/MenuPack";
 import PopularMenu from "../components/popular-menu/PopularMenu";
 import Testimonials from "../components/testimonials/Testimonials";
+import { useNav } from '../customHooks/useNav';
 
 const Home = () => {
+  const HeroRef = useNav('Hero');
+  const MenuRef = useNav('Menu');
+  const AboutRef = useNav('About');
+  const ContacttRef = useNav(' Contact')
   return (
     <Fragment>
       <Header />
-      <section id="home">
+      <section id="heroContainer" ref={HeroRef}>
         <HeroSlider />
       </section>
-      <section id="menu">
+      <section >
         <PopularMenu />
       </section>
-      <section id="aboutus">
+      <section id="aboutContainer" ref={AboutRef}>
         <ChooseUs />
       </section>
-      <section id="MenuPack">
+      <section   id="menuContainer" ref={MenuRef}>
         <MenuPack />
       </section>
-      <section id="Testimonials">
+      <section id="contactContainer" ref={ContacttRef}>
         <Testimonials />
       </section>
       <section>
