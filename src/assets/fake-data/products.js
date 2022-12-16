@@ -103,7 +103,7 @@ export const BBQProducts = [
     title: "Chicken Boti",
     price: 275,
     imgUrl: fastFood04,
-    description:"Chicken Afghani Biryani. Chicken, rice, biryani masala, yogurt, onion, red chilli, tomatoes, lemon juice"
+    description:"Chicken Afghani- Biryani. Chicken, rice, biryani masala, yogurt, onion, red chilli, tomatoes, lemon juice"
   },
 
 ];
