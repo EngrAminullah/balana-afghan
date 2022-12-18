@@ -13,14 +13,7 @@ const footerQuickLinks = [
     display: "Privacy Policy",
     url: "#",
   },
-  {
-    display: "Return & Refund",
-    url: "#",
-  },
-  {
-    display: "Payment Method",
-    url: "#",
-  },
+
 ];
 const footerLinks = [
   {
@@ -72,10 +65,7 @@ const Footer = () => {
           <Col lg="3" md="4" sm="6">
             <div className="logo">
               <img src={logo} alt="" />
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.
-              </p>
+
             </div>
           </Col>
           <Col lg="3" md="4" sm="6">

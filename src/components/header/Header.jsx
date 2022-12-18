@@ -29,7 +29,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   const menuRef = useRef();
-  const { activeNavLinkId, setActiveNavLinkId } = useContext(NavContext);
+  const {  setActiveNavLinkId } = useContext(NavContext);
   const menuToggle = () => menuRef.current.classList.toggle("active_menu");
 
   const handleClick = (navLinkId,scrollToId) => {

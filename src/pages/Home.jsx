@@ -20,14 +20,12 @@ const Home = () => {
       <section id="heroContainer" ref={HeroRef}>
         <HeroSlider />
       </section>
-      <section >
+      <section   id="menuContainer" ref={MenuRef}>
+        <MenuPack />
         <PopularMenu />
       </section>
       <section id="aboutContainer" ref={AboutRef}>
         <ChooseUs />
-      </section>
-      <section   id="menuContainer" ref={MenuRef}>
-        <MenuPack />
       </section>
       <section id="contactContainer" ref={ContacttRef}>
         <Testimonials />

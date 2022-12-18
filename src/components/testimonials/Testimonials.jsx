@@ -31,8 +31,8 @@ const Testimonials = () => {
                         when an unknown printer took a galley of type and
                         scrambled it to make a type specimen book.
                       </p>
-                      <h6>Amin</h6>
-                      <p> Web Developer</p>
+                      <h6>Atari Technology</h6>
+                      <p>Software Developement Team</p>
                     </div>
                   </div>
                   <div>
@@ -44,8 +44,8 @@ const Testimonials = () => {
                         when an unknown printer took a galley of type and
                         scrambled it to make a type specimen book.
                       </p>
-                      <h6>Aminullah</h6>
-                      <p> Web Developer</p>
+                      <h6>Atari Technology</h6>
+                      <p>Software Developement Team</p>
                     </div>
                   </div>
                 </Slider>
