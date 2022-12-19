@@ -31,7 +31,6 @@ const Header = () => {
   const menuRef = useRef();
   const {  setActiveNavLinkId } = useContext(NavContext);
   const menuToggle = () => menuRef.current.classList.toggle("active_menu");
-
   const handleClick = (navLinkId,scrollToId) => {
 		setActiveNavLinkId(navLinkId);
 		document.getElementById(scrollToId).scrollIntoView({ behavior: 'smooth' });
@@ -53,7 +52,7 @@ const Header = () => {
               <ul className="nav_list">
 
               <li onClick={()=>handleClick('Hero','heroContainer')}>
-                <Link activeClass="active" smooth spy to="home">
+                <Link activeClass="active" smooth spy to="home" >
                   Home
                 </Link>
               </li>
