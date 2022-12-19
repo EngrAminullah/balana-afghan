@@ -52,7 +52,7 @@ const Header = () => {
               <ul className="nav_list">
 
               <li onClick={()=>handleClick('Hero','heroContainer')}>
-                <Link activeClass="active" smooth spy to="home" >
+                <Link activeClass="active" smooth spy to="home">
                   Home
                 </Link>
               </li>
