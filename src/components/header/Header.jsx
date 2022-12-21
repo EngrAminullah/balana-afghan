@@ -1,4 +1,4 @@
-import React, { useRef,useContext } from "react";
+import React, { useRef,useContext, useEffect } from "react";
 import "./header.css";
 import { Container } from "reactstrap";
 import logo from "../../assets/images/logo.png";
@@ -35,6 +35,7 @@ const Header = () => {
 		setActiveNavLinkId(navLinkId);
 		document.getElementById(scrollToId).scrollIntoView({ behavior: 'smooth' });
 	};
+  
   return (
     <header className="header">
       <Container>
