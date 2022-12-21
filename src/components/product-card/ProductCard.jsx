@@ -39,7 +39,7 @@ const ProductCard = (props) => {
             </pre>
             <pre>
               {" "}
-              <span>
+              <span className="heart">
                 <i class="ri-heart-line ri-2x"></i>
               </span>
             </pre>
