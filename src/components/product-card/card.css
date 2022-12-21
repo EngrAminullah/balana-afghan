@@ -2,12 +2,8 @@
     background: rgb(255, 255, 255);
     border-radius: 10px;
     cursor: pointer;
-
-border: none;
-    /* box-sizing: border-box; */
+    border: none;
     animation: animate 1s ease-in;
-    /* box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px; */
-    /* box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px; */
 
 }
 
@@ -38,18 +34,13 @@ border: none;
     padding-top: 5px;
 }
 
-/* @font-face {
-    font-family: "molgak";
-    src: url(/public/fonts/MolgakClassy/MolgakClassy-Regular.ttf);
-} */
 
 
 .price {
     color: rgb(14, 0, 0);
     padding-top: 5px;
     font-size: 1.5rem;
-    font-weight:bold;
-    /* font-family: 'Zen Dots', cursive; */
+    font-weight: bold;
     font-family: 'Berkshire Swash', cursive;
 
 
@@ -58,12 +49,8 @@ border: none;
 .price span {
     color: #f76e11;
     font-size: 1.2rem;
-font-weight: bold;
+    font-weight: bold;
     font-family: 'Berkshire Swash', cursive;
-    /* font-family: 'Zen Dots', cursive; */
-    /* font-family: 'Proza Libre', sans-serif; */
-    /* font-family: 'Anton', sans-serif; */
-    /* font-family: 'Rubik Spray Paint', cursive; */
 }
 
 .shopping_icon {
@@ -76,6 +63,9 @@ font-weight: bold;
     justify-content: center;
     cursor: pointer;
     padding-top: 5px;
+}
+.product_img img{
+    height: 50%;
 }
 
 @keyframes animate {

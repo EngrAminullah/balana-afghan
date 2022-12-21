@@ -6,7 +6,7 @@ const ProductCard = (props) => {
   return (
     <div className="single_product">
       <div className="product_img ">
-        <img src={imgUrl} alt="" className="w-100" />
+        <img src={imgUrl} alt="" className="w-100 d-flex" />
       </div>
 
       <div className="product_content">

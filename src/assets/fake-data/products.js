@@ -86,7 +86,7 @@ export const BBQProducts = [
     title: "Mutton/Dumba Seekh Tikka",
     price: 250,
     imgUrl: fastFood04,
-    description: "dumba karaii and rosh plus namkeen tikka food was awsome very very delicious and fresh , naans are good"
+    description: "dumba karai, rosh and namkeen tikka food are delicious and fresh naans."
   },
   {
     id: "06",
@@ -107,7 +107,7 @@ export const BBQProducts = [
     title: "Chicken Boti",
     price: 275,
     imgUrl: fastFood04,
-    description:"Chicken Afghani- Biryani. Chicken, rice, biryani masala, yogurt, onion, red chilli, tomatoes, lemon juice"
+    description:"Chicken Afghani- Biryani. Chicken, rice, biryani masala, yogurt, onion, tomatoes, lemon juice"
   },
 
 ];
