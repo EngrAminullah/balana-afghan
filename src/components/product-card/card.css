@@ -45,6 +45,9 @@
 
 
 }
+.price:hover{
+    color: #f76e11;
+}
 
 .price span {
     color: #f76e11;
@@ -71,9 +74,9 @@
 
 .heart i {
     color: rgb(14, 0, 0);
-    padding-top: 5px;
-    font-size:2rem;
+    font-size:1.5rem;
     font-weight: bold;
+    display: flex;
 }
 
 .heart i:hover {
