@@ -84,6 +84,10 @@
         font-size: 0.6rem;
         font-weight: bolder;
     }
+    .product_content p {
+        font-size: .5rem;
+        line-height: 1rem;
+    }
 
     .price {
         font-size: 0.8rem;

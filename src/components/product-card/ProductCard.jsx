@@ -2,7 +2,7 @@ import React from "react";
 import "./card.css";
 
 const ProductCard = (props) => {
-  const { title, imgUrl, price,description } = props.item;
+  const { title, imgUrl, price, description } = props.item;
   return (
     <div className="single_product">
       <div className="product_img ">
@@ -10,7 +10,7 @@ const ProductCard = (props) => {
       </div>
 
       <div className="product_content">
-      <h6>{title}</h6>
+        <h6>{title}</h6>
         <div className="rating text-center">
           <span>
             <i class="ri-star-s-fill"></i>
@@ -29,13 +29,20 @@ const ProductCard = (props) => {
           </span>
         </div>
 
-<p>{description}</p>
+        <p>{description}</p>
 
         <div className="d-flex align-items-center justify-content-between">
           <span className="price d-flex align-items-center">
-          <pre> PKR <span>{price}</span>
-        </pre>
- <pre>          <span><i class="ri-heart-line ri-2x" ></i></span></pre>
+            <pre>
+              {" "}
+              PKR <span>{price}</span>
+            </pre>
+            <pre>
+              {" "}
+              <span>
+                <i class="ri-heart-line ri-2x"></i>
+              </span>
+            </pre>
           </span>
         </div>
       </div>
