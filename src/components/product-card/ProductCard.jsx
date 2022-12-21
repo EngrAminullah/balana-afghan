@@ -37,12 +37,9 @@ const ProductCard = (props) => {
               {" "}
               PKR <span>{price}</span>
             </pre>
-            <pre>
-              {" "}
-              <span className="heart">
-                <i class="ri-heart-line ri-2x"></i>
-              </span>
-            </pre>
+          </span>
+          <span className="heart">
+            <i class="ri-heart-line ri-2x"></i>
           </span>
         </div>
       </div>

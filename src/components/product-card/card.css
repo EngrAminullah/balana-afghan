@@ -69,6 +69,13 @@
     height: 50%;
 }
 
+.heart i {
+    color: rgb(14, 0, 0);
+    padding-top: 5px;
+    font-size:2rem;
+    font-weight: bold;
+}
+
 .heart i:hover {
     color: #f76e11;
 }
