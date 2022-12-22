@@ -5,6 +5,7 @@ import { Navigate, useRoutes } from "react-router-dom";
 
 import Home from "./pages/Home";
 import AboutUs from "./pages/about-us/about";
+import MenuPack from "./components/menu-pack/MenuPack";
 
 // ----------------------------------------------------------------------
 
@@ -16,6 +17,7 @@ export default function Router() {
       children: [
         { element: <Navigate to="/pages/balana-afghan" />, index: true },
         { path: "about", element: <AboutUs /> },
+        { path: "menu", element: <MenuPack /> },
       ],
     },
   ]);

@@ -6,27 +6,6 @@ import ReactWhatsapp from "react-whatsapp";
 import { NavContext } from '../../contexts/NavContexts';
 import { Link } from "react-router-dom";
 
-
-// const navLinks = [
-//   {
-//     display: "Home",
-//     url: "/",
-//   },
-//   {
-//     display: "Menu",
-//     url: "/menu",
-//   },
-
-//   {
-//     display: "About Us",
-//     url: "/aboutus",
-//   },
-//   {
-//     display: "Contact Us",
-//     url: "/contact",
-//   },
-// ];
-
 const Header = () => {
   const menuRef = useRef();
   const {  setActiveNavLinkId } = useContext(NavContext);

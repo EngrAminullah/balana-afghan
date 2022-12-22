@@ -145,8 +145,7 @@ const Footer = () => {
           <Row>
             <Col lg="12">
               <p>
-                © copyright 2022, developed by Engr Aminullah (Atari Tech). All
-                rights reserved.
+              Copyright ©2022 BalanaAfghan | Powerd by Atari Technologies
               </p>
             </Col>
           </Row>
