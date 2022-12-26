@@ -13,7 +13,6 @@ const footerQuickLinks = [
     display: "Privacy Policy",
     url: "#",
   },
-
 ];
 const footerLinks = [
   {
@@ -34,7 +33,7 @@ const footerLinks = [
   },
 ];
 const Footer = () => {
-  const openInsta = (url) => {
+  const openInsta = url => {
     const newWindow = window.open(
       "https://instagram.com/balanaafghan?igshid=YmMyMTA2M2Y=",
       "_blank",
@@ -42,7 +41,7 @@ const Footer = () => {
     );
     if (newWindow) newWindow.opener = null;
   };
-  const openMap = (url) => {
+  const openMap = url => {
     const newWindow = window.open(
       "https://www.google.com/maps/place/Balana+Afghan+Restaurant+Islamabad/@33.7115769,72.969752,13z/data=!4m10!1m2!2m1!1sbalana+afghan+restaurant+islamabad,+ayub+market,+markaz,+f-8+markaz+f+8+markaz+f-8,+islamabad!3m6!1s0x38dfbf4d0e5e4611:0xf8166b169bed3a89!8m2!3d33.7115769!4d73.0397898!15sCl1iYWxhbmEgYWZnaGFuIHJlc3RhdXJhbnQgaXNsYW1hYmFkLCBheXViIG1hcmtldCwgbWFya2F6LCBmLTggbWFya2F6IGYgOCBtYXJrYXogZi04LCBpc2xhbWFiYWRaWyJZYmFsYW5hIGFmZ2hhbiByZXN0YXVyYW50IGlzbGFtYWJhZCBheXViIG1hcmtldCBtYXJrYXogZiA4IG1hcmtheiBmIDggbWFya2F6IGYgOCBpc2xhbWFiYWSSARJhZmdoYW5pX3Jlc3RhdXJhbnTgAQA!16s%2Fg%2F11tmw_6dtw",
       "_blank",
@@ -50,7 +49,7 @@ const Footer = () => {
     );
     if (newWindow) newWindow.opener = null;
   };
-  const openFacebook = (url) => {
+  const openFacebook = url => {
     const newWindow = window.open(
       "https://www.facebook.com/profile.php?id=100085743417901",
       "_blank",
@@ -65,7 +64,6 @@ const Footer = () => {
           <Col lg="3" md="4" sm="6">
             <div className="logo">
               <img src={logo} alt="" />
-
             </div>
           </Col>
           <Col lg="3" md="4" sm="6">
@@ -145,7 +143,8 @@ const Footer = () => {
           <Row>
             <Col lg="12">
               <p>
-              Copyright ©2022 BalanaAfghan | Powerd by Atari Technologies
+                Copyright ©2022 BalanaAfghan | Powerd by Engr Aminullah Atari
+                Technologies
               </p>
             </Col>
           </Row>
