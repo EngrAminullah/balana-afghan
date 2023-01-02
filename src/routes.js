@@ -17,7 +17,6 @@ export default function Router() {
       children: [
         { element: <Navigate to="/pages/balana-afghan" />, index: true },
         { path: "about", element: <AboutUs /> },
-        { path: "menu", element: <MenuPack /> },
       ],
     },
   ]);
