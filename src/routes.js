@@ -1,11 +1,6 @@
 import { Navigate, useRoutes } from "react-router-dom";
-// layouts
-
-//
-
 import Home from "./pages/Home";
 import AboutUs from "./pages/about-us/about";
-import MenuPack from "./components/menu-pack/MenuPack";
 
 // ----------------------------------------------------------------------
 
