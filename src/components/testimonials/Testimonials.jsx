@@ -16,8 +16,8 @@ const Testimonials = () => {
   return (
     <section>
       <Container>
-        <Row >
-          <Col lg="8" sm='12' md='12' className="m-auto">
+        <Row>
+          <Col lg="8" sm="12" md="12" className="m-auto">
             <div className="slider_wrapper d-flex align-items-center gap-5">
               <div className="slider_content w-50">
                 <h2 className="mb-4">What our customers are saying</h2>
@@ -25,11 +25,9 @@ const Testimonials = () => {
                   <div>
                     <div className="single_testimonial">
                       <p className="review_content">
-                        Lorem Ipsum is simply dummy text of the printing and
-                        typesetting industry. Lorem Ipsum has been the
-                        industry's standard dummy text ever since the 1500s,
-                        when an unknown printer took a galley of type and
-                        scrambled it to make a type specimen book.
+                        If you're in the mood of eating Afghani dishes, rush to
+                        The Kabul Restaurant. A cozy and comfortable place for
+                        dining in with friends and family.
                       </p>
                       <h6>Atari Technology</h6>
                       <p>Software Developement Team</p>
@@ -38,14 +36,23 @@ const Testimonials = () => {
                   <div>
                     <div className="single_testimonial">
                       <p className="review_content">
-                        Lorem Ipsum is simply dummy text of the printing and
-                        typesetting industry. Lorem Ipsum has been the
-                        industry's standard dummy text ever since the 1500s,
-                        when an unknown printer took a galley of type and
-                        scrambled it to make a type specimen book.
+                        It was an incredible dinner there. Traditional foods
+                        tantalize your taste buds. The mesmerizing smoke from
+                        the grill adds more flavor to your food.
                       </p>
-                      <h6>Atari Technology</h6>
-                      <p>Software Developement Team</p>
+                      <h6>Aminullah</h6>
+                      <p>Software Developer in Islamabad</p>
+                    </div>
+                  </div>
+                  <div>
+                    <div className="single_testimonial">
+                      <p className="review_content">
+                        In my opinion, Kabul restaurant is the best Afghan
+                        Restaurant in Islamabad. The quality, quantity, and
+                        taste of the food are amazing value for money.
+                      </p>
+                      <h6>Atiqa Jabeen</h6>
+                      <p>Islamabad Resident</p>
                     </div>
                   </div>
                 </Slider>
