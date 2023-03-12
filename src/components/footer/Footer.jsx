@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Container, Row, ListGroup, ListGroupItem } from "reactstrap";
 import "./footer.css";
-import logo from "../../assets/images/logo.png";
+import logo from "../../assets/images/logo.jpeg";
 import ReactWhatsapp from "react-whatsapp";
 
 const footerQuickLinks = [

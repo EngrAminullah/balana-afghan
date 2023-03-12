@@ -26,10 +26,10 @@ const HeroSlider = () => {
                 <div className="slider_content w-50 ps-2">
                   <h2 className="mb-3">{item.title}</h2>
                   <p>{item.desc}</p>
-                  <button className="btn">Explore Food</button>
+                  <button className="btn">Explore Services</button>
                 </div>
-                <div className="slider_img w-50">
-                  <img src={item.imgUrl} alt="" className="w-100" />
+                <div className="slider_img w-30" style={{backgroundColor:"#faf8f3", marginLeft:"5px"}}>
+                  <img src={item.imgUrl} alt="" style={{borderRadius:"100%", width:"70%", height:"auto", backgroundColor:"FAF8F3"}}/>
                 </div>
               </div>
             </div>

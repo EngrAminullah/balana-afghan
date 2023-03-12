@@ -1,7 +1,7 @@
 import React from "react";
 import "./choose-us.css";
 import { Container, Row, Col } from "reactstrap";
-import pastaImg from "../../assets/images/pasta.png";
+import pastaImg from "../../assets/images/slider2.png";
 
 const ChooseUs = () => {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
 import "./testimonials.css";
 import { Container, Row, Col } from "reactstrap";
-import testimonialImg from "../../assets/images/review2.png";
+import testimonialImg from "../../assets/images/slider3.png";
 import Slider from "react-slick";
 
 const Testimonials = () => {

@@ -1,21 +1,21 @@
 // ======= imported  all products images from images folder ========
-import pizzaImg01 from "../images/pizza1.png";
-import fastFood03 from "../images/chicken3.png";
-import fastFood04 from "../images/chicken4.png";
-import dessert02 from "../images/dessert02.png";
+import pizzaImg01 from "../images/slider1.png";
+import fastFood03 from "../images/slider1.png";
+import fastFood04 from "../images/slider1.png";
+import dessert02 from "../images/slider1.png";
 
-import dessert04 from "../images/dessert3.png";
-import salad from "../images/slider2.png";
-import chickenBoti from "../images/menus-images/chicken boti.png";
-import balanakarai from "../images/menus-images/chicken karahi.png";
-import chicken from "../images/menus-images/chicken.png";
-import qahwa from "../images/menus-images/qahwa.png";
-import roosh from "../images/menus-images/items/roosh.png";
-import yakhni from "../images/menus-images/yakhni.png";
-import kabab from "../images/menus-images/items/kabab.png";
-import tea from "../images/menus-images/items/tea.png"
-import blackCoffee from '../images/menus-images/items/blackCoffee.png'
-import seekhtikka from '../images/menus-images/items/seekh-tikka.jpg'
+import dessert04 from "../images/slider1.png";
+import salad from "../images/slider1.png";
+import chickenBoti from "../images/menus-images/slider1.png";
+import balanakarai from "../images/menus-images/slider1.png";
+import chicken from "../images/menus-images/slider1.png";
+import qahwa from "../images/menus-images/slider1.png";
+import roosh from "../images/menus-images/items/slider1.png";
+import yakhni from "../images/menus-images/slider1.png";
+import kabab from "../images/menus-images/items/slider1.png";
+import tea from "../images/menus-images/items/slider1.png";
+import blackCoffee from '../images/menus-images/items/slider1.png';
+import seekhtikka from '../images/menus-images/items/slider1.png';
 
 
 
